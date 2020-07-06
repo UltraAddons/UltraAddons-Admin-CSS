@@ -5,14 +5,16 @@
  */
 
 /**Heading**/
-.ultraaddons h2, .ultraaddons-panel h2, .ultraaddons-panel h1 {
+.ultraaddons h2, 
+.ultraaddons-panel h2, 
+.ultraaddons-panel h1 {
     color: #2a8db0;
     font-size: 18px;
     text-transform: uppercase;
     padding: 0;
     margin: 0 0 25px 0;
 }
-.ultraaddons h2.with-background, .ultraaddons-panel h2.with-background, .ultraaddons-panel h1.with-background {
+.ultraaddons .with-background, .ultraaddons-panel .with-background {
     background: #ececec7a;
     padding: 33px;
     margin-top: -40px;
@@ -21,27 +23,23 @@
     padding-left: 43px;
     border-bottom: 1px solid #ecececc9;
 }
-.ultraaddons h2.with-background.light-background, 
-.ultraaddons-panel h2.with-background.light-background, 
-.ultraaddons-panel h1.with-background.light-background{
+.ultraaddons .with-background.light-background, 
+.ultraaddons-panel .with-background.light-background{
     background: #eaeaea26;
     color: black;
 }
-.ultraaddons h2.with-background.red-background, 
-.ultraaddons-panel h2.with-background.red-background, 
-.ultraaddons-panel h1.with-background.red-background{
+.ultraaddons .with-background.red-background, 
+.ultraaddons-panel .with-background.red-background{
     background: #F44336;
     color: #ffffff;
 }
-.ultraaddons h2.with-background.black-background, 
-.ultraaddons-panel h2.with-background.black-background, 
-.ultraaddons-panel h1.with-background.black-background{
+.ultraaddons .with-background.black-background, 
+.ultraaddons-panel .with-background.black-background{
     background: #000000;
     color: #73d17a;
 }
-.ultraaddons h2.with-background.gradient-background, 
-.ultraaddons-panel h2.with-background.gradient-background, 
-.ultraaddons-panel h1.with-background.gradient-background{
+.ultraaddons .with-background.gradient-background, 
+.ultraaddons-panel .with-background.gradient-background{
     background: linear-gradient(65deg, #007693 0%, rgb(0, 118, 147) 50%, #29000e 100%);
     color: #ffffff;
     border-bottom: 1px solid #260514;
