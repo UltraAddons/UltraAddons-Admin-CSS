@@ -101,9 +101,14 @@
     width: 100%;
 }
 .ultraaddons-panel table tr th{
-    min-width: 300px;
+    min-width: 200px;
+    max-height: 600px;
+    width: 275px;
     text-align: left;
-    font-weight: 400;}
+    font-weight: 500;
+    color: #004354;
+    }
+.ultraaddons-panel table tr th label{font-weight: 500;}
 .ultraaddons-panel table tr th,
 .ultraaddons-panel table tr td{
     padding: 16px 0 28px 0;
