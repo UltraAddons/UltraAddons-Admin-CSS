@@ -104,6 +104,8 @@
     min-width: 200px;
     max-height: 600px;
     width: 275px;
+    padding-right: 10px;
+    word-break: break-word;
     text-align: left;
     font-weight: 500;
     color: #004354;
@@ -275,11 +277,9 @@
     
 }
 
-.ultraaddons input:checked+ .slider .on
-{display: block;}
+.ultraaddons input:checked+ .slider .on{display: block;}
 
-.ultraaddons input:checked + .slider .off
-{display: none;}
+.ultraaddons input:checked + .slider .off{display: none;}
 
 /*--------- END --------*/
 
@@ -289,4 +289,5 @@
 }
 
 .ultraaddons .slider.round:before {
-  border-radius: 50%;}
+  border-radius: 50%;
+}
